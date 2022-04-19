@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--facebook -->
+  <meta property="og:title" content="Ki Soul Healing">
+  <meta property="og:image" content="heartbook.jpg">
+  <meta property="og:description" content="Reiki, Healing & Akashic Records Readings">
+  <meta property="og:site_name" content="Ki Soul Healing"/>
+
+  <!-- Google result text-->
+  <title>Ki Soul Healing | Reader, Healer </title>
+  <!-- Google result description-->
+  <meta name="description" content="Reiki, Healing & Akashic Records Readings">
+</head>
+<body>
+  <header>
+  <div class="wrap">
+  <ul>
+    <!-- <a href="#home"><li>home</li></a>
+    <a href="#about"><li>about</li></a>
+    <a href="contact.html"><li>contact</li></a> -->
+  </ul>
+  </div>
+</header>
+
+<div class="wrap">
+  <section id="home">
+    <img src="juliologo.jpeg"style="width:300px;height: 300px;border-radius: 50%; border-style:solid; border-color:white;">
+    <h1>Services</h1>
+
+  <div id="pattern" class="pattern">
+  <div class="col-group">
+    <div>
+      <h2><b>Akashic Records Reading</b></h2>
+      <p>Info about Julio's Akashic Records reading here</p>
+    </div>
+
+    <div>
+      <h2><b>Reiki Healing</b></h2>
+      <p>Info about Julio's Reiki Sessions here</p>
+    </div>
+  </div>
+</div>
+
+    <a href="http://www.luciaespiga.com/contact.html"><button class="button">Contact Me</button></a>
+  </div>
+</div>
+</div>
+
+<div class="wrap">
+  <section id="about">
+    <img class="me" src="julio.jpeg">
+    <h1>About Me</h1>
+    <p>Info about Julio here</p>
+</section>
+</div>
+
+<section id="footer">
+<ul>
+<a href="https://www.instagram.com/ki.soulhealing/" class="fa fa-instagram"></a>
+</ul>
+</section>
+</body>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script>
+  $(document).ready(function(){
+
+
+    $('header a').click(function(){
+        var href = $(this).attr('href');
+        var id = href.split('#').join('');
+        $('body, html').animate({
+            'scrollTop' : $('#' + id).offset().top
+        });
+        return false;
+    });
+
+});
+</script>
+
+<style>
+  @import url(https://fonts.googleapis.com/css?family=Raleway:400,200);
+
+/* responsive */
+@media screen and (min-width: 40em) {
+  .col-group {
+    overflow: hidden;
+  }
+  .col-group > div {
+    float: left;
+    width: 30%;
+  }
+
+}
+
+body{
+
+  font-family: 'Raleway', sans-serif;
+  font-weight:200;
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+    font-weight:bold;
+}
+
+h2{
+    font-weight:200;
+  width:50%;
+}
+
+h3{
+    font-weight:200;
+}
+
+p{
+  font-weight:200;
+
+}
+
+::selection {
+    background: #CFA193; /* Safari */
+    }
+::-moz-selection {
+    background: #CFA193; /* Firefox */
+}
+
+header{
+  background-color: #3944BC;
+  height:150px;
+  padding-top:10px;
+  width:100%;
+  overflow:hidden;
+  font-size:25px;
+  float: right;
+}
+
+header .logo{
+  font-size:40px;
+  color:white;
+  padding:5px;
+  padding-left:10px;
+  float:left;
+
+}
+
+@-webkit-keyframes Jump {
+    from {-webkit-transform: translate(0, 0px);}
+    50% {-webkit-transform: translate(0, 3px);}
+    to {-webkit-transform: translate(0, 0px);}
+}
+header .logo:hover {
+  -webkit-animation-name: Jump;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+}
+
+header ul{
+  display:inline;
+  float:right;
+  padding-top:5px;
+}
+
+header ul li{
+  display:inline;
+  color:white;
+  padding:5px;
+}
+
+header ul a{
+  text-decoration:none;
+
+  padding:10px 2px 10px 2px;
+
+-webkit-transition: all 500ms ease;
+-moz-transition: all 500ms ease;
+-ms-transition: all 500ms ease;
+-o-transition: all 500ms ease;
+transition: all 500ms ease;
+
+}
+
+header ul a:hover{
+  background-color:grey;
+  border-radius:5px;
+  padding:10px 20px 10px 20px;
+
+  -webkit-transition: all 500ms ease;
+-moz-transition: all 500ms ease;
+-ms-transition: all 500ms ease;
+-o-transition: all 500ms ease;
+transition: all 500ms ease;
+
+}
+
+
+
+section{
+  top:0px;right:0px;bottom:0px;left:0px;
+  height: 100%;
+  width: 100%;
+  padding-top:60px;
+  border-bottom:1px dotted #D5D5D5;
+  padding-bottom:40px;
+
+}
+
+section .images{
+  text-align:center;
+
+
+-webkit-transition: all 500ms ease;
+-moz-transition: all 500ms ease;
+-ms-transition: all 500ms ease;
+-o-transition: all 500ms ease;
+transition: all 500ms ease;
+
+}
+.images img{
+    width:auto;
+
+  }
+.button {
+  border: black;
+  color: black;
+  background-color: #3944BC;
+  padding: 25px 45px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.images img:hover{
+}
+
+.wrap{
+  max-width:760px;
+  margin:auto;
+  padding-left:5px;
+  padding-right:5px;
+}
+
+#hello{
+  padding-top:100px;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+  margin-left:40px;
+  border-bottom:0px dotted #D5D5D5;
+}
+
+#hello h1{
+    font-weight:400;
+}
+
+#hello p{
+  width:50%;
+    font-weight:400;
+}
+
+
+.white{
+  color:white;
+
+}
+
+
+#skills{
+  clear:both;
+  min-height:500px;
+
+}
+
+#skills ul{
+    text-align:left;
+    margin-left:-40px;
+}
+
+#skills li{
+  font-size:80px;
+  padding:20px;
+  list-style:none;
+  color:#D3D3D3;
+  text-align:center;
+
+  -webkit-transition: all 500ms ease;
+-moz-transition: all 500ms ease;
+-ms-transition: all 500ms ease;
+-o-transition: all 500ms ease;
+transition: all 500ms ease;
+
+
+}
+
+#skills li:hover{
+  color:#94c2cf;
+  cursor:pointer;
+
+  -webkit-transition: all 500ms ease;
+-moz-transition: all 500ms ease;
+-ms-transition: all 500ms ease;
+-o-transition: all 500ms ease;
+transition: all 500ms ease;
+
+
+}
+
+.col-group > div {
+  padding: 0.5em 0.5em 0;
+}
+
+.me {
+  display: block;
+  margin: 2em auto;
+  margin-bottom: 2em;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+#about ul{
+    text-align:center;
+    margin-left:-40px;
+}
+
+#about ul li{
+  font-size:50px;
+  list-style:none;
+  display:inline;
+  color:white;
+
+  -webkit-transition: all 500ms ease;
+-moz-transition: all 500ms ease;
+-ms-transition: all 500ms ease;
+-o-transition: all 500ms ease;
+transition: all 500ms ease;
+
+
+}
+
+#about ul li:hover{
+  color:#94c2cf;
+  cursor:pointer;
+  -webkit-transition: all 500ms ease;
+-moz-transition: all 500ms ease;
+-ms-transition: all 500ms ease;
+-o-transition: all 500ms ease;
+transition: all 500ms ease;
+}
+
+.images a:link{
+  text-decoration:none;
+  text-decoration-color: #000000 !important;
+  text-decoration-line: none;
+}
+
+.images a:visited{
+  text-decoration:none;
+  text-decoration-color: #00000 !important;
+  text-decoration-line: none;
+}
+
+
+
+#footer{
+  background-color: #3944BC;
+  color:white;
+  text-align:center;
+}
+
+@-webkit-keyframes Jumpy {
+    from {-webkit-transform: translate(0, 0px);}
+    50% {-webkit-transform: translate(0, 10px);}
+    to {-webkit-transform: translate(0, 0px);}
+}
+
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 50px;
+  width: 30px;
+  text-decoration: none;
+  border-radius: 50%;
+  color: white;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  color: grey;
+}
+
+
+
+</style>
+</html>
