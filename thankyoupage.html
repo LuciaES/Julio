@@ -16,110 +16,34 @@
   <header>
   <div class="wrap">
   <ul>
-    <a href="#home"><li>home</li></a>
-    <!-- <a href="#about"><li>about</li></a>
-    <a href="contact.html"><li>contact</li></a> -->
+    <a href="index.html#home"><li>home</li></a>
   </ul>
   </div>
 </header>
 
 <div class="wrap">
-  <section id="home">
     <img src="juliologo.jpeg"style="width:300px;height: 300px;border-radius: 50%; border-style:solid; border-color:white;">
-    <h1>Services</h1>
-    <p>I use the traditional Usui Reiki method to align and keep your body and spirit in balance.<br>
-    As an Usui Traditional Reiki Master, I believe that it is better to enrich the body rather than create a battle against it.</p>
-
-  <div id="pattern" class="pattern">
-  <div class="col-group">
-    <div>
-      <h2><b>Akashic Records Reading</b></h2>
-      <p>With the guidance of your Teachers, Beings of Light, Guide, and Soul, I help you find that guide that is so necessary for our daily lives.<br>
-      Each reading lasts approximately one hour, but can be extended depending on the need of the moment.<br>
-      Do not hesitate to schedule a day and time for your reading, and thus, find the answers that you need so much to travel the path you have chosen.<br><br>
-      US$150</p>
-    </div>
-
-    <div>
-      <h2><b>Reiki Healing</b></h2>
-      <p>Individual sessions<br><br>
-      Using the Usui Traditional Reiki method, I carry out sessions in which I cleanse your energy, bringing harmonization and balance to your Physical, Mental and Emotional body. Face-to-face and remote sessions<br><br>
-      US$75</p>
-    </div>
-
-    <div>
-      <h2><b>Treatments</b></h2>
-      <p>Performing Treatments, which are made up of a total of 10 sessions, are highly recommended for the prompt recovery of illnesses and liberation of the origin of any discomfort at the level of the Physical, Mental, and Emotional bodies.<br><br>
-      US$333</p>
-    </div>
-  </div>
+    <h2>Message Sent</h2>
 </div>
 
- <div id="pattern" class="pattern">
-  <div class="col-group">
-<h1>Learn Reiki</h1>
-    <div>
-      <h2><b>First Level Initiations:</b></h2>
-      <p>Once done, you will not only be able to treat yourself with this system, but also perform sessions and treatments on other people. Includes Manual and Diploma<br><br>
-      US$200</p>
-    </div>
-
-    <div>
-      <h2><b>Second Level Initiations:</b></h2>
-      <p>As with the first level, you will be able to carry out sessions and treatments not only in person but also remotely, thanks to the assistance of 3 sacred symbols that will be granted to you. Includes Manual and Certificate<br><br>
-      US$275</p>
-    </div>
-
-    <div>
-      <h2><b>Third Level Initiations:</b></h2>
-      <p>As with the second level, you will be able to carry out sessions and treatments not only in person but also remotely, thanks to the assistance of 4 sacred symbols that will be granted to you. Includes Manual and Certificate.<br><br>
-      US$450</p>
-    </div>
-
-  </div>
-</div>
-
-    <a href="http://www.kisoulhealing/book.html"><button class="button">Book</button></a>
-  </div>
-</div>
-</div>
-
+<section>
+  <div class="wrap2" style="margin-bottom:300px;">
 <div class="wrap">
-  <section id="about">
-    <img class="me" src="julio.jpeg">
-    <h1>About Me</h1>
-    <p>My name is Julio Gallinotti, I am from Salto, Uruguay. I started this beautiful path in 2003, feeling an immense need to find something that would help me achieve the peace, harmony, and balance that I needed in my life. I was initiated on this path of light by a great Master, Silvia Wachter, and then I continued along with it until I received the Master's degree from the Paradharmas Das school in Argentina in 2007.<br><br>
-    In 2019, I began to walk my path as an Akashic Records Reader, guided by Lucia and Lorena Espiga, from Soul Tribe Academy.<br><br>
-    This year 2021 I attended the second level, which enables me to Read the Akashic Records of other people, to help in the healing and guidance that is so needed.<br><br>
-    If you want to know more, contact me and I will gladly answer all your questions.</p>
-</section>
+          <h1>Thanks for contacting me!</h1>
+          <p>I will get back to you as soon as possible.</p>
 </div>
+</div>
+</section>
 
 <section id="footer">
 <ul>
   <a href="https://www.facebook.com//" class="fa fa-facebook"></a>
- <a href="https://www.instagram.com/ki.soulhealing/" class="fa fa-instagram"></a>
- <a href="https://twitter.com/julio_eduardog/" class="fa fa-twitter"></a>
+<a href="https://www.instagram.com/ki.soulhealing/" class="fa fa-instagram"></a>
+<a href="https://twitter.com/julio_eduardog/" class="fa fa-twitter"></a>
 </ul>
 </section>
 </body>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-<script>
-  $(document).ready(function(){
-
-
-    $('header a').click(function(){
-        var href = $(this).attr('href');
-        var id = href.split('#').join('');
-        $('body, html').animate({
-            'scrollTop' : $('#' + id).offset().top
-        });
-        return false;
-    });
-
-});
-</script>
 
 <style>
   @import url(https://fonts.googleapis.com/css?family=Raleway:400,200);
@@ -136,8 +60,10 @@
 
 }
 
-body{
 
+
+
+body{
   font-family: 'Raleway', sans-serif;
   font-weight:200;
   margin: 0;
@@ -170,7 +96,7 @@ p{
 }
 
 header{
-  background-color: #3944BC;
+  background-color:#3944BC;
   height:150px;
   padding-top:10px;
   width:100%;
@@ -239,7 +165,6 @@ transition: all 500ms ease;
 }
 
 
-
 section{
   top:0px;right:0px;bottom:0px;left:0px;
   height: 100%;
@@ -265,21 +190,12 @@ transition: all 500ms ease;
     width:auto;
 
   }
-.button {
-  border: black;
-  color: black;
-  background-color: #3944BC;
-  padding: 25px 45px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 25px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
+
 
 .images img:hover{
 }
+
+
 
 .wrap{
   max-width:760px;
@@ -287,6 +203,18 @@ transition: all 500ms ease;
   padding-left:5px;
   padding-right:5px;
 }
+
+  .wrap2{
+  max-width:760px;
+  margin:auto;
+  text-align: center;
+  display:flex;
+  justify-content: space-around;
+  width:500px;
+  height: 250px;
+  box-shadow: inset 0 20px 50px #3944BC;
+}
+
 
 #hello{
   padding-top:100px;
@@ -387,6 +315,7 @@ transition: all 500ms ease;
 #about ul li:hover{
   color:#94c2cf;
   cursor:pointer;
+
   -webkit-transition: all 500ms ease;
 -moz-transition: all 500ms ease;
 -ms-transition: all 500ms ease;
@@ -394,22 +323,9 @@ transition: all 500ms ease;
 transition: all 500ms ease;
 }
 
-.images a:link{
-  text-decoration:none;
-  text-decoration-color: #000000 !important;
-  text-decoration-line: none;
-}
-
-.images a:visited{
-  text-decoration:none;
-  text-decoration-color: #00000 !important;
-  text-decoration-line: none;
-}
-
-
 
 #footer{
-  background-color: #3944BC;
+  background-color:#3944BC;
   color:white;
   text-align:center;
 }
@@ -437,6 +353,8 @@ transition: all 500ms ease;
 }
 
 
-
 </style>
 </html>
+
+
+
